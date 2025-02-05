@@ -1,23 +1,3 @@
-/*
-1.What is the total weekly sales across all weeks?
-2.What is the average weekly sales?
-3.What are the maximum and minimum weekly sales?
-4.How do sales during holidays compare to sales during non-holidays?
-5.What is the relationship between weekly sales and fuel price?
-6.How does the Consumer Price Index (CPI) affect weekly sales?
-7.How does the unemployment rate influence weekly sales?
-8.How do weekly sales vary with temperature?
-9.What are the sales in different temperature ranges (e.g., below 50, between 50-75, above 75)?
-10.How do sales during holidays correlate with higher or lower sales during the year?
-11.What is the trend of weekly sales over time?
-12.How does fuel price affect weekly sales trends?
-13.What are the sales for weeks where the temperature was above a certain threshold?
-14.Which weeks had the highest sales during holidays?
-15.Which weeks had the lowest sales but the highest unemployment rate?
-16.How do weekly sales compare before and after a certain CPI threshold?
-*/
-
-
 /*1.What is the total weekly sales across all weeks?*/
 select sum(Weekly_Sales)
 from walmart_sales;
